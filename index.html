@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Dashboard UI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">LOGO</h2>
+    <nav>
+      <span class="active">🏠</span>
+      <span>👥</span>
+      <span>💬</span>
+      <span>📁</span>
+      <span>📞</span>
+      <span>⚙️</span>
+    </nav>
+    <img class="user" src="https://i.pravatar.cc/40?img=32">
+  </aside>
+
+  <!-- Main Area -->
+  <div class="main">
+
+    <!-- Top Bar -->
+    <header class="topbar">
+      <input type="text" placeholder="Search User, Events and more...">
+      <img src="https://i.pravatar.cc/40?img=45">
+    </header>
+
+    <!-- Content -->
+    <div class="content">
+
+      <!-- Chat List -->
+      <section class="chat-list">
+        <h4>Chat</h4>
+        <input type="text" placeholder="Search Contacts...">
+
+        <div class="contact active">
+          <img src="https://i.pravatar.cc/40?img=12">
+          <div>
+            <p>Zayne</p>
+            <span>Online</span>
+          </div>
+        </div>
+
+        <div class="contact">
+          <img src="https://i.pravatar.cc/40?img=15">
+          <div>
+            <p>Rohit Agarwal</p>
+            <span>3h ago</span>
+          </div>
+        </div>
+
+        <div class="contact">
+          <img src="https://i.pravatar.cc/40?img=18">
+          <div>
+            <p>John Alex</p>
+            <span>5h ago</span>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button class="active">Meeting</button>
+          <button>Schedule</button>
+        </div>
+
+        <h4>Groups (6)</h4>
+        <div class="group">UI/UX Designing</div>
+        <div class="group">Web Development</div>
+      </section>
+
+      <!-- Chat Window -->
+      <section class="chat-window">
+
+        <header class="chat-header">
+          <div class="user-info">
+            <img src="https://i.pravatar.cc/40?img=12">
+            <div>
+              <p>Zayne</p>
+              <span>Online</span>
+            </div>
+          </div>
+          <div class="icons">📞 🎥 ⋮</div>
+        </header>
+
+        <div class="messages">
+          <div class="msg left">What is the status of the project?</div>
+          <div class="msg right">Almost done</div>
+          <div class="msg left">Will it be done by tomorrow?</div>
+          <div class="msg right">Yup!!</div>
+        </div>
+
+        <footer class="input-area">
+          <input type="text" placeholder="Type a message here...">
+          <button>➤</button>
+        </footer>
+
+      </section>
+
+      <!-- Profile Panel -->
+      <aside class="profile">
+        <img src="https://i.pravatar.cc/100?img=12">
+        <h3>Zayne</h3>
+        <p>Web Designer</p>
+
+        <div class="info">
+          <p>📍 Pune, India</p>
+          <p>📞 +91 9876543210</p>
+          <p>✉️ sayali@email.com</p>
+        </div>
+
+        <h4>Media (28)</h4>
+        <div class="media">
+          <img src="https://picsum.photos/60?1">
+          <img src="https://picsum.photos/60?2">
+          <img src="https://picsum.photos/60?3">
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
